@@ -19,7 +19,7 @@ Beliebige USB-Datenträger (SSD, HDD, USB-Stick) einmalig verschlüsseln — dan
 
 - 🛡️ AES-256-Verschlüsselung via VeraCrypt (portabel, im Paket enthalten)
 - 💻 Portabel – UsbLock startet direkt vom Datenträger, keine PC-Installation nötig
-- ⚡ Schnelle Einrichtung dank VeraCrypt `/quick /FastCreateFile` – auch große Datenträger in wenigen Minuten
+- ⚡ Schnelle Einrichtung – auch große Datenträger in wenigen Minuten
 - 🔍 Automatische Erkennung des S-IT-Datenträgers beim Start
 - 🔧 Neuen Datenträger direkt aus UsbLock einrichten (startet UsbSetup vom Gerät)
 - 📋 Vollständiges Log bei der Einrichtung
