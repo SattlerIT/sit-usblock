@@ -1,0 +1,77 @@
+============================================================
+ S-IT USB-Lock – Haftungsausschluss (Disclaimer)
+ © 2026 Sattler IT-Service, Greifenstein · Hans Udo Sattler
+============================================================
+
+Alle Angaben ohne Gewähr. Irrtümer vorbehalten.
+
+S-IT USB-Lock ist ein kostenloses Tool-Paar zur Verschlüsselung
+externer Datenträger unter Windows. S-IT UsbSetup richtet einen
+Datenträger einmalig ein (Partitionierung, Formatierung und
+AES-256-Verschlüsselung über die eingebundene Fremdsoftware
+VeraCrypt), S-IT UsbLock entsperrt und sperrt ihn im täglichen
+Betrieb. Beide Programme greifen dabei tief in die Datenträger-
+verwaltung des Systems ein und erfordern Administratorrechte.
+
+1. Vollständiger Datenverlust bei der Einrichtung
+   Die Einrichtung mit S-IT UsbSetup löscht ALLE auf dem gewählten
+   Zieldatenträger vorhandenen Daten unwiderruflich. Prüfen Sie vor
+   dem Start sorgfältig, welcher Datenträger ausgewählt ist, und
+   sichern Sie vorhandene Daten vorher an anderer Stelle. Für Daten,
+   die durch die Auswahl eines falschen Datenträgers verloren gehen,
+   wird keine Verantwortung übernommen.
+
+2. Passwortverlust bedeutet Datenverlust
+   Das vergebene Passwort wird nirgends gespeichert und an keiner
+   Stelle übertragen. Es gibt kein Master-Passwort, keine Hintertür
+   und keine Wiederherstellungsfunktion. Ist das Passwort verloren,
+   sind die Daten auf dem verschlüsselten Datenträger dauerhaft und
+   endgültig nicht mehr zugänglich – auch nicht durch Sattler
+   IT-Service.
+
+3. Verschlüsselung ersetzt kein Backup
+   Ein verschlüsselter Datenträger ist keine Sicherungskopie. Bei
+   Hardware-Defekten, Dateisystemschäden, versehentlichem Löschen,
+   Stromausfall während des Schreibens oder unsachgemäßem Abziehen
+   des Datenträgers können Daten verloren gehen oder der gesamte
+   verschlüsselte Bereich unbrauchbar werden. Halten Sie stets eine
+   unabhängige Datensicherung vor.
+
+4. Keine Zusicherung von Sicherheit oder Verfügbarkeit
+   Die tatsächliche Sicherheit der Verschlüsselung hängt von der
+   Qualität des gewählten Passworts, vom Zustand des verwendeten
+   Systems (z. B. Schadsoftware, Keylogger) und von der eingesetzten
+   Fremdsoftware ab. Es wird keine Zusicherung gegeben, dass die
+   Daten unter allen Umständen vor fremdem Zugriff geschützt oder
+   jederzeit verfügbar sind.
+
+5. Eingebundene Fremdsoftware (VeraCrypt)
+   S-IT USB-Lock enthält VeraCrypt in portabler Form. VeraCrypt ist
+   ein eigenständiges Open-Source-Projekt unter kombinierter Lizenz
+   (Apache 2.0 / TrueCrypt 3.0) und steht nicht unter der Kontrolle
+   von Sattler IT-Service. Für Funktion, Sicherheit und Weiter-
+   entwicklung dieser Fremdkomponente wird keine Verantwortung
+   übernommen. Die vollständigen Lizenztexte liegen dem Paket bei.
+
+6. Nutzung auf eigene Verantwortung
+   Die Verwendung beider Programme erfolgt auf eigene Verantwortung.
+   Das gilt insbesondere für Eingriffe in die Partitionierung, für
+   den Betrieb mit Administratorrechten und für Entscheidungen, die
+   auf Basis der Programmmeldungen getroffen werden.
+
+7. Haftungsausschluss
+   Eine Haftung für Schäden, Datenverluste, Ausfälle oder
+   Vermögensschäden, die aus der Nutzung der Tools, ihrer Meldungen
+   oder der eingebundenen Fremdsoftware entstehen, ist – soweit
+   gesetzlich zulässig – ausgeschlossen.
+
+8. Rechtliche Rahmenbedingungen
+   Für den zulässigen Einsatz von Verschlüsselung ist der Anwender
+   selbst verantwortlich. Je nach Land, Arbeitgeber oder Auftraggeber
+   können Vorgaben oder Einschränkungen für den Einsatz
+   verschlüsselter Datenträger bestehen.
+
+------------------------------------------------------------
+Kontakt:       tool-entwicklung@sattler-it.de
+Projektseite:  https://sattlerit.github.io/sit-usblock/
+------------------------------------------------------------
