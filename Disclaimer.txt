@@ -8,10 +8,10 @@ Alle Angaben ohne Gewähr. Irrtümer vorbehalten.
 S-IT USB-Lock ist ein kostenloses Tool-Paar zur Verschlüsselung
 externer Datenträger unter Windows. S-IT UsbSetup richtet einen
 Datenträger einmalig ein (Partitionierung, Formatierung und
-AES-256-Verschlüsselung über die eingebundene Fremdsoftware
-VeraCrypt), S-IT UsbLock entsperrt und sperrt ihn im täglichen
-Betrieb. Beide Programme greifen dabei tief in die Datenträger-
-verwaltung des Systems ein und erfordern Administratorrechte.
+AES-256-Verschlüsselung über die Fremdsoftware VeraCrypt),
+S-IT UsbLock entsperrt und sperrt ihn im täglichen Betrieb.
+Beide Programme greifen dabei tief in die Datenträgerverwaltung
+des Systems ein und erfordern Administratorrechte.
 
 1. Vollständiger Datenverlust bei der Einrichtung
    Die Einrichtung mit S-IT UsbSetup löscht ALLE auf dem gewählten
@@ -45,13 +45,21 @@ verwaltung des Systems ein und erfordern Administratorrechte.
    Daten unter allen Umständen vor fremdem Zugriff geschützt oder
    jederzeit verfügbar sind.
 
-5. Eingebundene Fremdsoftware (VeraCrypt)
-   S-IT USB-Lock enthält VeraCrypt in portabler Form. VeraCrypt ist
-   ein eigenständiges Open-Source-Projekt unter kombinierter Lizenz
-   (Apache 2.0 / TrueCrypt 3.0) und steht nicht unter der Kontrolle
-   von Sattler IT-Service. Für Funktion, Sicherheit und Weiter-
-   entwicklung dieser Fremdkomponente wird keine Verantwortung
-   übernommen. Die vollständigen Lizenztexte liegen dem Paket bei.
+5. Fremdsoftware VeraCrypt
+   VeraCrypt ist nicht Bestandteil von S-IT USB-Lock und wird nicht
+   mit dem Paket ausgeliefert. S-IT UsbSetup lädt VeraCrypt auf
+   Veranlassung des Anwenders von der offiziellen Quelle des
+   VeraCrypt-Projekts, prüft den Download anhand der dort
+   veröffentlichten Prüfsumme und legt die Programmdateien
+   unverändert im Ordner VeraCrypt ab.
+   VeraCrypt ist ein eigenständiges Open-Source-Projekt und steht
+   nicht unter der Kontrolle von Sattler IT-Service. Für VeraCrypt
+   gelten ausschließlich dessen eigene Lizenzbedingungen (Apache
+   License 2.0 und TrueCrypt License 3.0). Die vollständigen
+   Lizenztexte (License.txt, LICENSE, NOTICE) liegen im Ordner
+   VeraCrypt. Quellcode und Lizenz: https://veracrypt.io
+   Für Funktion, Sicherheit und Weiterentwicklung dieser
+   Fremdsoftware wird keine Verantwortung übernommen.
 
 6. Nutzung auf eigene Verantwortung
    Die Verwendung beider Programme erfolgt auf eigene Verantwortung.
@@ -62,7 +70,7 @@ verwaltung des Systems ein und erfordern Administratorrechte.
 7. Haftungsausschluss
    Eine Haftung für Schäden, Datenverluste, Ausfälle oder
    Vermögensschäden, die aus der Nutzung der Tools, ihrer Meldungen
-   oder der eingebundenen Fremdsoftware entstehen, ist – soweit
+   oder der Fremdsoftware VeraCrypt entstehen, ist – soweit
    gesetzlich zulässig – ausgeschlossen.
 
 8. Rechtliche Rahmenbedingungen

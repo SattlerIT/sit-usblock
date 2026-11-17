@@ -1,0 +1,63 @@
+============================================================
+ S-IT USB-Lock – Changelog
+ © 2026 Sattler IT-Service, Greifenstein · Hans Udo Sattler
+============================================================
+
+Version 4.0 (17.11.2026)
+------------------------------------------------------------
+S-IT UsbLock und S-IT UsbSetup tragen ab sofort immer dieselbe
+Versionsnummer.
+
+S-IT UsbLock
+  - Bis zu drei S-IT-Datenträger lassen sich gleichzeitig
+    entsperren. Alle angeschlossenen Datenträger stehen mit ihrem
+    Zustand in einer Liste.
+  - Schnellerer Start. Netzlaufwerke und Cloud-Laufwerke werden
+    nicht mehr angesprochen und nie als Laufwerksbuchstabe
+    vergeben.
+  - Klarere Meldungen, zum Beispiel bei falschem Passwort, bei
+    nicht erreichbaren Laufwerken oder bei einem nicht vollständig
+    eingerichteten Datenträger.
+  - Das Fenster wird nicht mehr von der Taskleiste verdeckt und
+    wird bei hoher Windows-Skalierung in der richtigen Größe
+    angezeigt.
+
+S-IT UsbSetup
+  - VeraCrypt wird nicht mehr mitgeliefert. Das Setup lädt beim
+    ersten Einrichten die jeweils neueste Fassung von der
+    offiziellen Quelle und prüft sie vor der Verwendung.
+  - Es wird ausschließlich auf den ausgewählten Datenträger
+    geschrieben, auch wenn weitere S-IT-Datenträger angeschlossen
+    sind.
+  - Ist kein Laufwerksbuchstabe frei, bricht das Setup ab, bevor
+    etwas gelöscht wird.
+  - Die schnelle Einrichtung klappt jetzt auch auf PCs, auf denen
+    zuvor eine andere VeraCrypt-Fassung verwendet wurde.
+  - Fortschritt und Laufzeit werden während der gesamten
+    Einrichtung angezeigt.
+  - Wird das Fenster während der Einrichtung geschlossen, fragt
+    das Setup nach und beendet bei Bestätigung auch VeraCrypt.
+  - Das Fenster wird nicht mehr von der Taskleiste verdeckt und
+    wird bei hoher Windows-Skalierung in der richtigen Größe
+    angezeigt.
+  - Beide Hilfe-Dateien werden auf jeden eingerichteten
+    Datenträger kopiert.
+
+Hilfe und Lizenz
+  - Beide Hilfe-Dateien wurden vollständig überarbeitet.
+  - Lizenzhinweise zu VeraCrypt (Apache License 2.0 und TrueCrypt
+    License 3.0) aktualisiert.
+
+
+Version 1.9.8 / 3.1.0 – Erstveröffentlichung
+------------------------------------------------------------
+Erstes stabiles Release des Tool-Paares. UsbLock mit
+automatischer Datenträgererkennung, Entsperren/Sperren,
+erzwungenem Sperren und Setup-Start-Button. UsbSetup mit
+3-Schritt-Assistent, Schnell-Verschlüsselung und vollständigem
+Log.
+
+------------------------------------------------------------
+Kontakt:       tool-entwicklung@sattler-it.de
+Projektseite:  https://sattlerit.github.io/sit-usblock/
+------------------------------------------------------------
