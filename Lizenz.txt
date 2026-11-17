@@ -1,0 +1,27 @@
+======================================================================
+ S-IT USB-Lock – S-IT UsbLock und S-IT UsbSetup
+ Lizenz
+ © 2026 Sattler IT-Service, Greifenstein · Hans Udo Sattler
+======================================================================
+
+LIZENZ - S-IT USB-Lock
+© 2026 Sattler IT-Service, Greifenstein
+Autor: Hans Udo Sattler
+
+Freeware – kostenlose Nutzung und Weitergabe erlaubt.
+Kommerzielle Weiterverwendung oder Modifikation ohne Genehmigung nicht
+gestattet.
+Kontakt: tool-entwicklung@sattler-it.de
+
+Es gilt der Haftungsausschluss in der beiliegenden Datei
+Disclaimer.txt.
+
+VeraCrypt ist nicht Bestandteil von S-IT USB-Lock. Für VeraCrypt
+gelten ausschließlich dessen eigene Lizenzbedingungen (Apache License
+2.0 und TrueCrypt License 3.0); die Lizenztexte liegen im Ordner
+VeraCrypt, den S-IT UsbSetup beim ersten Einrichten anlegt.
+
+----------------------------------------------------------------------
+Kontakt:       tool-entwicklung@sattler-it.de
+Projektseite:  https://sattlerit.github.io/sit-usblock/
+----------------------------------------------------------------------
