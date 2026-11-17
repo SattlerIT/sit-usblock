@@ -60,6 +60,15 @@
     transition: background 0.2s;
   }
   .btn-download:hover { background: #219150; }
+  .btn-manual {
+    display: inline-block; margin-left: 10px;
+    color: var(--white); text-decoration: none;
+    font-size: 15px; font-weight: 600;
+    padding: 12px 26px; border-radius: 4px;
+    border: 1px solid rgba(255,255,255,.6);
+  }
+  .btn-manual:hover { background: rgba(255,255,255,.12); }
+  @media (max-width: 700px) { .btn-manual { margin: 10px 0 0; } }
 
   /* ── NAV ── */
   nav {
@@ -358,10 +367,12 @@
   <h1>🔐 S&#8209;IT USB-Lock</h1>
   <p class="tagline">Beliebige USB-Datenträger verschlüsseln &nbsp;&ndash;&nbsp; danach per Knopfdruck <strong>Entsperren</strong> und <strong>Sperren</strong></p>
   <a class="btn-download" href="https://github.com/SattlerIT/sit-usblock/releases/latest/download/sit-usblock_latest.zip">⬇ Download aktuelle Version</a>
+  <a class="btn-manual" href="S-IT-USB-Lock-Handbuch-v4.0.pdf">📖 Handbuch (PDF)</a>
 </header>
 
 <nav>
   <a href="#konzept">Konzept</a>
+  <a href="#video">Video</a>
   <a href="#funktionen">Funktionen</a>
   <a href="#ablauf">Ablauf</a>
   <a href="#screenshots">Screenshots</a>
@@ -397,6 +408,14 @@
       Kostenlos einen eigenen Datensafe nutzen.</p>
     </div>
   </div>
+
+  <h2 id="video">Video</h2>
+
+  <video controls preload="none" poster="Video/S-IT-USB-Lock-Video-Poster.jpg"
+         style="width:100%; border-radius:6px; background:#1B2631; display:block;">
+    <source src="Video/S-IT-USB-Lock-Video.mp4" type="video/mp4">
+  </video>
+  <p style="font-size:13px; color:var(--muted); margin-top:6px;">Einrichtung und tägliche Nutzung in knapp zwei Minuten.</p>
 
   <h2 id="funktionen">Funktionen</h2>
 
@@ -510,7 +529,7 @@
   </div>
 
   <div class="note">
-    <strong>Hilfe:</strong> Zu beiden Programmen gehört eine ausführliche Hilfe. Sie liegt neben dem Programm und öffnet sich über den Knopf <strong>Hilfe</strong> oben rechts im Programmfenster. Das Setup kopiert beide Hilfen auf jeden eingerichteten Datenträger.
+    <strong>Handbuch und Hilfe:</strong> Das <a href="S-IT-USB-Lock-Handbuch-v4.0.pdf">Handbuch (PDF)</a> führt mit Bildern durch Einrichtung und tägliche Nutzung. Zu beiden Programmen gehört außerdem eine ausführliche Hilfe. Sie liegt neben dem Programm und öffnet sich über den Knopf <strong>Hilfe</strong> oben rechts im Programmfenster. Das Setup kopiert beide Hilfen auf jeden eingerichteten Datenträger.
   </div>
 
   <p>Downloads und Releases: <a href="https://github.com/SattlerIT/sit-usblock/releases">GitHub Releases</a></p>
